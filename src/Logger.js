@@ -6,7 +6,7 @@ let Errors = {
 };
 
 function throwFatal(message) {
-  console.log(Errors.Fatal + message);]
+  console.log(Errors.Fatal + message);
   return message;
 }
 
