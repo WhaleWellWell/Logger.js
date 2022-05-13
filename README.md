@@ -19,4 +19,6 @@ Enter this in your own JavaScript to test it out:
 logMessage("Testing...");
 ```
 
+## > Coming Soon: Examples...
+I will make some exapmles for logger.js in the examples/ folder...
 ### > All made by @WhaleWellWell Have Fun!
