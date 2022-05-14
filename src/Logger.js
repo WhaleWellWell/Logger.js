@@ -1,21 +1,27 @@
-// Logger.js by WhaleWellWell. Free to use! Have fun!
+// Logger.js by WhaleWellWell. Free to use! Have fun
 
-let Errors = {
-  "Fatal": "A FATAL error has occurred :( ",
-  "Minor": "A Minor error has orrurred "
-};
+class Logger {
+  constructor(message) {
+    this.message = msg; // Shorthand for easier typing.
 
-function throwFatal(message) {
-  console.log(Errors.Fatal + message);
-  return message;
-}
+    let ErrorMsg = {
+      "Fatal": "A FATAL error has occurred :( ",
+      "Minor": "A Minor error has orrurred "
+    }; 
+  }
 
-function throwMinor(message) {
-  console.log(Errors.Minor + message);
-  return message;
-}
+  throwFatal() {
+    console.log(ErrorMsg.Fatal + msg);
+    return msg;
+  }
+  
+  throwMinor() {
+    console.log(ErrorMsg.Minor + msg);
+    return msg;
+  }
 
-function logMessage(message) {
-  console.log(message);
-  return message;
+  logMessage() {
+    console.log(msg);
+    return msg;
+  }
 }
